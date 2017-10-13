@@ -11,6 +11,7 @@
 	width: 400px;
 	height: 300px;
 	overflow: hidden;
+	position: relative;
 
 	ul
 		width: 2000px;
@@ -24,3 +25,48 @@
 			width: 400px;
 			height: 300px;
 			float: left;
+
+#dots
+	display: none;
+	position: absolute;
+	top: 280px;
+
+	ul
+		list-style-type: none;
+
+		li
+			border: 1px solid blue;
+			border-radius: 50%;
+			width: 10px;
+			height: 10px;
+			float: left;
+			margin: 5px;
+
+.carousel-control
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	
+	width: 10%;
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0,.6);
+	opacity: .5;
+	border: 1px solid red;
+
+	&.right
+		right: 0;
+		left: auto;
+
+	.fa
+		position: absolute;
+		top: 50%;
+		margin: 0 auto;
+
+
+	

@@ -1,19 +1,38 @@
  <!DOCTYPE html>
  <html>
  <head>
- 	<title>Carousel</title>
+ 	<title>Carousel 1</title>
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
- 	<link href="css/style.css" rel="stylesheet">
+ 	<link rel="stylesheet" href="css/style.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
  </head>
  <body>
  	<div id="carousel">
- 		<ul>
- 			<li><img src="http://placehold.it/400x300" alt=""></li>
- 			<li><img src="http://placehold.it/400x300" alt=""></li>
- 			<li><img src="http://placehold.it/400x300" alt=""></li>
- 			<li><img src="http://placehold.it/400x300" alt=""></li>
- 			<li><img src="http://placehold.it/400x300" alt=""></li>
- 		</ul>
+ 		<div id="images">
+	 		<ul>
+	 			<li><img src="http://placehold.it/400x300" alt=""></li>
+	 			<li><img src="http://placehold.it/400x299" alt=""></li>
+	 			<li><img src="http://placehold.it/400x298" alt=""></li>
+	 			<li><img src="http://placehold.it/400x297" alt=""></li>
+	 			<li><img src="http://placehold.it/400x296" alt=""></li>
+	 		</ul>
+ 		</div>
+ 	 	<div id="dots">
+ 			<ul>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 			</ul>
+ 		</div>
+
+		<a class="left carousel-control" href="#carousel" data-slide="prev">
+		  <span class="fa fa-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#carousel" data-slide="next">
+		  <span class="fa fa-chevron-right"></span>
+		</a> 		
  	</div>
     <script type="text/javascript" src="js/scripts.js"></script>
  </body>

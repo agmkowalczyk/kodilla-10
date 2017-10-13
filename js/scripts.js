@@ -6,7 +6,7 @@ $("#carousel img:odd").css('outline', '2px solid blue').css('outline-offset', '-
 
 $(function(){
 
-	var carouselList = $("#carousel ul");
+	var carouselList = $("#carousel #images ul");
 	
 	setInterval(changeSlide, 3000); 
 
